@@ -12,6 +12,7 @@
 		B693A93A1F2694B70050A474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B693A9381F2694B70050A474 /* Main.storyboard */; };
 		B693A93C1F2694B70050A474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B693A93B1F2694B70050A474 /* Assets.xcassets */; };
 		B693A93F1F2694B70050A474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B693A93D1F2694B70050A474 /* LaunchScreen.storyboard */; };
+		F04B8C5D1F269A820077FE57 /* ArnoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04B8C5C1F269A820077FE57 /* ArnoldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B693A93B1F2694B70050A474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B693A93E1F2694B70050A474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B693A9401F2694B70050A474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04B8C5C1F269A820077FE57 /* ArnoldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArnoldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B693A9341F2694B70050A474 /* AppDelegate.swift */,
 				B693A9361F2694B70050A474 /* ViewController.swift */,
+				F04B8C5C1F269A820077FE57 /* ArnoldViewController.swift */,
 				B693A9381F2694B70050A474 /* Main.storyboard */,
 				B693A93B1F2694B70050A474 /* Assets.xcassets */,
 				B693A93D1F2694B70050A474 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04B8C5D1F269A820077FE57 /* ArnoldViewController.swift in Sources */,
 				B693A9371F2694B70050A474 /* ViewController.swift in Sources */,
 				B693A9351F2694B70050A474 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +308,7 @@
 				B693A9451F2694B70050A474 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
