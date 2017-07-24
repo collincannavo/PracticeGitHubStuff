@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         // This is a change in the project
         // Trying to change again
     }
+    
+    func foo() {
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
